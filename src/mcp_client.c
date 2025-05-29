@@ -36,7 +36,7 @@ MCPClient* mcp_create_client() {
         close(from_bridge[1]);
         
         // Ejecutar el bridge nativo desde out/
-        execl("./out/MCPBridge_native", "MCPBridge_native", NULL);
+        execl("./MCPBridge_native", "MCPBridge_native", NULL);
         exit(1);
     }
     
