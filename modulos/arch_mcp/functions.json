@@ -1,0 +1,23 @@
+[
+  {
+    "name": "diagnosticar_estado",
+    "description": "Realiza un diagnóstico general del sistema antes de continuar la instalación.",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "crear_particiones",
+    "description": "Crea las particiones necesarias para Arch Linux.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "modo": { "type": "string", "enum": ["uefi", "bios"] },
+        "disco": { "type": "string" },
+        "esquema": { "type": "string", "enum": ["auto", "manual"] }
+      },
+      "required": ["modo", "disco", "esquema"]
+    }
+  }
+]
