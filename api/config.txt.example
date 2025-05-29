@@ -1,0 +1,7 @@
+# Configuración de la API de OpenAI
+# Copia este archivo como config.txt y agrega tu API key
+
+API_KEY=tu_openai_api_key_aqui
+
+# Ejemplo:
+# API_KEY=sk-1234567890abcdef...

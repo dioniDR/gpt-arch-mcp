@@ -1,0 +1,44 @@
+# Directorio de compilación
+out/
+
+# Archivos ejecutables compilados
+gpt_arch_mcp
+MCPBridge_native
+*.exe
+*.dll
+*.dbg
+*.pdb
+
+# Directorios de compilación .NET
+bin/
+obj/
+
+# Archivos temporales de ejecución
+req.json
+resp.json
+out.txt
+context.txt
+
+# Configuración con API keys
+api/config.txt
+
+# Archivos temporales del sistema
+*~
+*.bak
+*.swp
+*.tmp
+.DS_Store
+
+# Archivos de objeto
+*.o
+*.d
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs y distribuciones
+*.log
+*.tar.gz
+*.zip
